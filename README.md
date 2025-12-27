@@ -23,6 +23,18 @@ Whenever Developer writing/changes a code and push into master/main branch, GitH
         index.html
 ```
 ---
+Code push
+   ↓
+Docker image built
+   ↓
+Docker image pushed
+   ↓
+K8s manifest updated
+   ↓
+Manifest committed to Git
+   ↓
+ArgoCD deploys new version
+
 #### What you will learn:
 - Git for version control
 - VS Code Editor
