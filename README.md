@@ -23,29 +23,18 @@ Whenever Developer writing/changes a code and push into master/main branch, GitH
         index.html
 ```
 ---
-Code push
+- Code push
    ↓
-Docker image built
+- Docker image built
    ↓
-Docker image pushed
+- Docker image pushed
    ↓
-K8s manifest updated
+- K8s manifest updated
    ↓
-Manifest committed to Git
+- Manifest committed to Git
    ↓
-ArgoCD deploys new version
+- ArgoCD deploys new version
 
-#### What you will learn:
-- Git for version control
-- VS Code Editor
-- Docker for testing locally
-- Minikube for Kubernetes 1 Node Arch. 
-- GitHub for storing code
-- GitHub Actions for Continous Integrity Pipeline 
-- ArgoCD for Continous Deployment Pipeline
-- Python Application
-    - Flask Framework
-    - Flake8 Module for Linting testing  
 ---
 ## Test Application Locally. 
 Whenever we are creating pipeline, it is best practice to test application locally.
