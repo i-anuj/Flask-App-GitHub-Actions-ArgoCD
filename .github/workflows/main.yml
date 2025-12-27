@@ -61,7 +61,7 @@ jobs:
       - name: Update K8s Manifests
         run: |
           cat deploy/deploy.yaml
-          sed -i "s|image: hacked01/demo-app:.*|image: hacked01/demo-app:${{ env.VERSION }}|g" deploy/deploy.yaml
+          sed -i "s|image: i-anuj/demo-app:.*|image: i-anuj/demo-app:${{ env.VERSION }}|g" deploy/deploy.yaml
           cat deploy/deploy.yaml
 
       # Update Github
