@@ -1,3 +1,5 @@
+Credit - 
+infosecsingh Inderjeet SIngh
 # Complete CI/CD DevOps Project 🚀
 ### Deploy Python Flask App on Kubernetes cluster with GitOps Approach. 
 
