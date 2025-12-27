@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: hacked01/demo-app:v20250105121337
+        image: hacked01/demo-app:v20251227111357
         ports:
         - containerPort: 5000
